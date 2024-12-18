@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+VA+Guides&display=swap');
+header{
+    width: 100vw;
+    height: 100vh;
+    /* background:linear-gradient(rgba(20,25,23,0.4),rgba(25,25,30,0.3)), url("./bg.jpg"); */
+    background-color: rgb(49, 168, 172);
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    font-family: "Playwrite DE VA Guides", cursive;;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navbar .icon img{
+    width: 60px;
+}
+.navbar nav{
+    margin-top: 10px;
+    padding: 20px;
+    border-bottom: 5px solid rgb(222, 221, 221);
+}
+.navbar nav a{
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 20px 10px;
+    color: white;
+    border-radius: 10px;
+}
+.navbar nav a:hover{
+    border-bottom: 2px solid white;
+}
+.avail-container{
+    padding: 20vh;
+}

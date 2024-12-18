@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+ /* margin-top: 50px;*/
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+  body {
+  /*background-image: url('https://images.unsplash.com/photo-1551294812-8e88133a2e0b');/ /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container { 
+  background: rgba(0, 0, 0, 0.6); 
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: left;
+  /* margin-top: 30%; */
+ }
+
+
+.content-container {
+  padding: 30px;
+}
+
+.welcome-message {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #f39c12; 
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ecf0f1;
+  margin-top: 15px;
+  text-align: justify;
+}
+
+.services-heading, .contact-us-heading {
+  color: #f39c12;
+  margin-top: 30px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.services-list {
+  list-style-type: none;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.services-list li {
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.Logbtn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: block;
+  margin: 30px auto;
+}
+
+.Logbtn:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+.Logbtn:focus {
+  outline: none;
+}
+
+.footer {
+  background-color: rgba(79, 213, 231, 0.573);
+  color: black;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  position: static;
+  bottom: 0;
+ /* /left: 0;/*/
+}
+
+.footer a {
+  color: #f39c12;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 20px;
+    max-width: 100%;
+     margin: 20px; 
+    margin-top: 10%;
+  }
+ 
+
+
+  .welcome-message {
+    font-size: 1.8rem;
+  }
+
+  .intro-text, .contact-info {
+    font-size: 1rem;
+  }
+
+  .services-heading, .contact-us-heading {
+    font-size: 1.5rem;
+  }
+}

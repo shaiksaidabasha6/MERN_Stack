@@ -1,0 +1,130 @@
+/* Body styles with darker gradient */
+/* .bdy {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #2c3e50, #34495e, #2c3e50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  width: 100%;
+} */
+.bdy {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #b9682e, #ee0979); /* Warm sunset gradient */
+  display: flex;
+  margin-top: 0%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+
+
+
+
+/* Container for the signup form with smaller size */
+.signup-container {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 380px; /* Reduced container size */
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 20px;
+  margin-right: 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Header styles */
+.signup-container h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.signup-container p {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+/* Form input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  margin: 10px 0;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+input::placeholder {
+  color: #ddd;
+}
+
+/* Input focus effect */
+input:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  border-color: #ff8a00;
+}
+
+/* Signup button styles */
+button {
+  padding: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 102%;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #e52e71, #ff8a00);
+}
+a {
+  color: #ffdd59;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.error-message {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #ff4f4f;
+}
+@media (max-width: 480px) {
+  .signup-container {
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  input {
+    font-size: 0.9rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}
